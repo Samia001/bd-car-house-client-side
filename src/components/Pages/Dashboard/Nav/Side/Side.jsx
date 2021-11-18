@@ -47,7 +47,7 @@ const Side = () => {
           menuBar
         ) : (
           <h3 className="text-teal-700 text-3xl font-grandHotel tracking-wider font-bold">
-            eProperty
+            bd car house
           </h3>
         )}
         <div className="flex items-center p-2 space-x-4">

@@ -16,7 +16,7 @@ const Review = () => {
   });
 
   useEffect(() => {
-    document.title = "Make Review | eProperty";
+    document.title = "Make Review | bd car house";
   }, []);
 
   const history = useHistory();

@@ -9,7 +9,7 @@ const Explore = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    document.title = "Explore | eProperty";
+    document.title = "Explore | bd car house";
     fetch("https://frozen-reaches-53021.herokuapp.com/cars")
       .then((res) => res.json())
       .then((data) => setProducts(data));

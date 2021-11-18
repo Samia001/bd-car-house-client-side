@@ -8,7 +8,7 @@ const Admins = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    document.title = "Make Admin | eProperty";
+    document.title = "Make Admin | bd car house";
   }, []);
 
   useEffect(() => {

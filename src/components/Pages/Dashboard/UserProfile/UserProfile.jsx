@@ -6,7 +6,7 @@ const UserProfile = () => {
   const { user, admin } = useAuth();
 
   useEffect(() => {
-    document.title = "User Dashboard | eProperty";
+    document.title = "User Dashboard | bd car house";
   }, []);
 
   return (

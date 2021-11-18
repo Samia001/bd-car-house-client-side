@@ -9,7 +9,7 @@ const Login = () => {
   const { handleGoogleSignIn, handleEmailPassSignIn } = useSignMethod();
 
   useEffect(() => {
-    document.title = "Login | eProperty";
+    document.title = "Login | bd car house";
   }, []);
 
   const { register, handleSubmit } = useForm();

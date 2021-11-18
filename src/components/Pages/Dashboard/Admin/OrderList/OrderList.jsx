@@ -87,7 +87,7 @@ const OrderList = () => {
   };
 
   useEffect(() => {
-    document.title = "Order List | eProperty";
+    document.title = "Order List | bd car house";
   }, []);
 
   useEffect(() => {

@@ -8,10 +8,10 @@ const About = ({ children }) => {
         <div className="grid items-center grid-cols-1 md:grid-cols-2">
           <div data-aos="fade-right" data-aos-duration="1500" className="p-10">
             <h3 className="text-5xl py-2 text-gray-800 font-grandHotel">
-              What's eProperty
+              What's bd car house
             </h3>
             <p className="text-gray-700">
-            eProperty is Bangladesh's leading property site — the best place to search, whether you are investing, buying your own home, or looking for a place to rent. At PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
+            bd car house is Bangladesh's leading property site — the best place to search, whether you are investing, buying your own home, or looking for a place to rent. At PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
             </p>
           </div>
 

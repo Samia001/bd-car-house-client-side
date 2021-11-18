@@ -3,7 +3,7 @@ import sad from "../../../../../images/sad.png";
 
 const Payment = () => {
   useEffect(() => {
-    document.title = "Make Payment | eProperty";
+    document.title = "Make Payment | bd car house";
   }, []);
 
   return (

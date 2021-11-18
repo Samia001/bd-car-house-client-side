@@ -16,7 +16,7 @@ module.exports = {
         // Build your palette here
         transparent: "transparent",
         current: "currentColor",
-        teal: colors.purple,
+        teal: colors.amber,
         emerald: colors.emerald,
       },
     },

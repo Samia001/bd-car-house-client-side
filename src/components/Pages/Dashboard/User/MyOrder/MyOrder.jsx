@@ -35,7 +35,7 @@ const MyOrder = () => {
   };
 
   useEffect(() => {
-    document.title = "My Orders | eProperty";
+    document.title = "My Orders | bd car house";
 
     fetch(`https://frozen-reaches-53021.herokuapp.com/orders?email=${user.email}`)
       .then((res) => res.json())

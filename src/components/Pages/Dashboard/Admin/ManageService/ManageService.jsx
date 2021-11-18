@@ -47,7 +47,7 @@ const ManageService = () => {
   };
 
   useEffect(() => {
-    document.title = "Manage Service | eProperty";
+    document.title = "Manage Service | bd car house";
   }, []);
 
   useEffect(() => {

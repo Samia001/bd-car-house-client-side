@@ -12,7 +12,7 @@ const AddService = () => {
   });
 
   useEffect(() => {
-    document.title = "Add Service | eProperty";
+    document.title = "Add Service | bd car house";
   }, []);
 
   const handleOnBlur = (e) => {

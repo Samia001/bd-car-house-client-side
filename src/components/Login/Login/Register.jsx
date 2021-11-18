@@ -10,7 +10,7 @@ const Register = () => {
   const { register, handleSubmit } = useForm();
 
   useEffect(() => {
-    document.title = "Register | eProperty";
+    document.title = "Register | bd car house";
   }, []);
 
   const onSubmit = async (data) => {

@@ -30,7 +30,7 @@ const Footer = () => {
               <span className="text-teal-600">e </span>Property
             </h2>
             <p>
-            eProperty is Bangladesh's leading property site — the best place to search, whether you are investing, buying your own home, or looking for a place to rent. At PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
+            bd car house is Bangladesh's leading property site — the best place to search, whether you are investing, buying your own home, or looking for a place to rent. At PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
             </p>
             <div className="flex space-x-4">
               <BsFacebook className="transition text-xl cursor-pointer hover:text-orange" />

@@ -14,7 +14,7 @@ const AboutUs = () => {
   };
 
   useEffect(() => {
-    document.title = "About US | eProperty";
+    document.title = "About US | bd car house";
   }, []);
 
   return (
