@@ -19,7 +19,7 @@ const MyOrder = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://frozen-basin-84194.herokuapp.com/order/${id}`, {
+        fetch(`https://frozen-reaches-53021.herokuapp.com/order/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
@@ -37,7 +37,7 @@ const MyOrder = () => {
   useEffect(() => {
     document.title = "My Orders | eProperty";
 
-    fetch(`https://frozen-basin-84194.herokuapp.com/orders?email=${user.email}`)
+    fetch(`https://frozen-reaches-53021.herokuapp.com/orders?email=${user.email}`)
       .then((res) => res.json())
       .then((data) => setMyOrders(data));
   }, [user.email, isDelete]);

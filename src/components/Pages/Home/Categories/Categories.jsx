@@ -20,7 +20,7 @@ const Categories = () => {
         </div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-gray-700">
-          Multiplex Apartments
+          Multiplex Cars
           </div>
           <p className="text-gray-700 text-base"></p>
         </div>
@@ -36,7 +36,7 @@ const Categories = () => {
         </div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-gray-700">
-          Single Apartments
+          Single Cars
           </div>
           <p className="text-gray-700 text-base"></p>
         </div>

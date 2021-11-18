@@ -10,7 +10,7 @@ const Explore = () => {
 
   useEffect(() => {
     document.title = "Explore | eProperty";
-    fetch("https://frozen-basin-84194.herokuapp.com/apartments")
+    fetch("https://frozen-reaches-53021.herokuapp.com/cars")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -24,7 +24,7 @@ const Explore = () => {
 
       <div style={{ padding: "5rem 0" }} className="my-container">
         <div className="text-teal-600 text-4xl text-center mb-10">
-          Explore Our Apartments
+          Explore Our Cars
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {products?.map((pd) => (

@@ -35,7 +35,7 @@ const Review = () => {
   const formSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://frozen-basin-84194.herokuapp.com/review", {
+    fetch("https://frozen-reaches-53021.herokuapp.com/review", {
       method: "POST",
       headers: {
         "content-type": "application/json",

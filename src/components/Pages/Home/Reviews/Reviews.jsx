@@ -8,7 +8,7 @@ const Reviews = () => {
   const [allReview, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch("https://frozen-basin-84194.herokuapp.com/reviews")
+    fetch("https://frozen-reaches-53021.herokuapp.com/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);

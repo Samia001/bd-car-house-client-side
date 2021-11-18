@@ -45,7 +45,7 @@ const AddService = () => {
 
         history.push("/dashboard");
 
-        fetch("https://frozen-basin-84194.herokuapp.com/apartments", {
+        fetch("https://frozen-reaches-53021.herokuapp.com/cars", {
           method: "POST",
           headers: {
             "content-type": "application/json",

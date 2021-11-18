@@ -31,7 +31,7 @@ const ManageService = () => {
         });
 
         history.push("/dashboard");
-        fetch(`https://frozen-basin-84194.herokuapp.com/apartments/${id}`, {
+        fetch(`https://frozen-reaches-53021.herokuapp.com/cars/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
@@ -51,7 +51,7 @@ const ManageService = () => {
   }, []);
 
   useEffect(() => {
-    fetch("https://frozen-basin-84194.herokuapp.com/apartments")
+    fetch("https://frozen-reaches-53021.herokuapp.com/cars")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, [isDelete]);

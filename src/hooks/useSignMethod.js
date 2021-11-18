@@ -21,7 +21,7 @@ const useSignMethod = () => {
     googleSignIn()
       .then((result) => {
         // history.push(redirect_uri);
-        fetch(`https://frozen-basin-84194.herokuapp.com/users`, {
+        fetch(`https://frozen-reaches-53021.herokuapp.com/users`, {
           method: "PUT",
           headers: {
             "content-type": "application/json",
@@ -106,7 +106,7 @@ const useSignMethod = () => {
       .then((result) => {
         auth.currentUser.displayName = fullName;
 
-        fetch(`https://frozen-basin-84194.herokuapp.com/users`, {
+        fetch(`https://frozen-reaches-53021.herokuapp.com/users`, {
           method: "PUT",
           headers: {
             "content-type": "application/json",

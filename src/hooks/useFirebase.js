@@ -91,7 +91,7 @@ const useFirebase = () => {
   }, [auth]);
 
   useEffect(() => {
-    fetch(`https://frozen-basin-84194.herokuapp.com/user/${user.email}`)
+    fetch(`https://frozen-reaches-53021.herokuapp.com/user/${user.email}`)
       .then((res) => res.json())
       .then((data) => setAdmin(data));
   }, [user.email]);

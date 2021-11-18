@@ -21,7 +21,7 @@ const ExploreBanner = ({ children }) => {
           ) : (
             <div className="text-white text-left flex items-center justify-center flex-col">
               <p className="text-5xl uppercase tracking-widest text-black-500">
-                Explore Your Apartments
+                Explore Your Cars
               </p>
             </div>
           )}

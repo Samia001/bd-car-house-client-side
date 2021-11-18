@@ -19,7 +19,7 @@ const PlaceOrder = () => {
   });
 
   useEffect(() => {
-    fetch(`https://frozen-basin-84194.herokuapp.com/apartment/${id}`)
+    fetch(`https://frozen-reaches-53021.herokuapp.com/car/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);
@@ -51,7 +51,7 @@ const PlaceOrder = () => {
       confirmButtonText: "Yes place Order!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch("https://frozen-basin-84194.herokuapp.com/order", {
+        fetch("https://frozen-reaches-53021.herokuapp.com/order", {
           method: "POST",
           headers: {
             "content-type": "application/json",

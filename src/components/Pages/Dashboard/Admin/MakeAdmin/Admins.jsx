@@ -12,7 +12,7 @@ const Admins = () => {
   }, []);
 
   useEffect(() => {
-    fetch("https://frozen-basin-84194.herokuapp.com/users")
+    fetch("https://frozen-reaches-53021.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, [isUpdate]);
@@ -38,7 +38,7 @@ const Admins = () => {
           },
         });
 
-        fetch(`https://frozen-basin-84194.herokuapp.com/users`, {
+        fetch(`https://frozen-reaches-53021.herokuapp.com/users`, {
           method: "PUT",
           headers: {
             "content-type": "application/json",

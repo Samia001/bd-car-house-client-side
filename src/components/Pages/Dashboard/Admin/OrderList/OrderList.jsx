@@ -28,7 +28,7 @@ const OrderList = () => {
             popup: "animate__animated animate__fadeOutUp",
           },
         });
-        fetch(`https://frozen-basin-84194.herokuapp.com/order/${id}`, {
+        fetch(`https://frozen-reaches-53021.herokuapp.com/order/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
@@ -66,7 +66,7 @@ const OrderList = () => {
               popup: "animate__animated animate__fadeOutUp",
             },
           });
-          fetch(`https://frozen-basin-84194.herokuapp.com/order?id=${order._id}`, {
+          fetch(`https://frozen-reaches-53021.herokuapp.com/order?id=${order._id}`, {
             method: "PUT",
             headers: {
               "content-type": "application/json",
@@ -91,7 +91,7 @@ const OrderList = () => {
   }, []);
 
   useEffect(() => {
-    fetch(`https://frozen-basin-84194.herokuapp.com/orders`)
+    fetch(`https://frozen-reaches-53021.herokuapp.com/orders`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [user.email, isDelete]);
