@@ -1,0 +1,63 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* style added to components layer */
+@layer components {
+  .btn {
+    @apply cursor-pointer border-none focus:outline-none px-6 py-3 rounded-md;
+  }
+  .btn-primary {
+    @apply text-white bg-teal-700 focus:ring-2 focus:ring-offset-2 focus:ring-teal-600 hover:bg-teal-600 hover:shadow-md;
+  }
+  .btn-danger {
+    @apply text-white bg-red-700 focus:ring-2 focus:ring-offset-2 focus:ring-red-600 hover:bg-red-600 hover:shadow-md;
+  }
+
+  input:focus-within ~ label {
+    @apply transform scale-95 text-teal-700 duration-300;
+  }
+
+  input:focus-within ~ label,
+  input:not(:placeholder-shown) ~ label {
+    @apply transform scale-75 -translate-y-6;
+  }
+}
+
+/* custom classes */
+.my-container {
+  @apply w-full py-14 mx-auto px-10;
+}
+
+@media (min-width: 576px) {
+  .my-container {
+    max-width: 540px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .my-container {
+    max-width: 720px !important;
+  }
+}
+@media (min-width: 992px) {
+  .my-container {
+    max-width: 970px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .my-container {
+    max-width: 1170px !important;
+  }
+  .userImg {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .my-container {
+    max-width: 1320px !important;
+  }
+}
