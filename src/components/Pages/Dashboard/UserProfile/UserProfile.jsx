@@ -21,7 +21,7 @@ const UserProfile = () => {
           src={user?.photoURL || userImg}
           alt=""
         />
-        <h2 className="text-3xl">Hello, {user?.displayName || admin?.name}</h2>
+        <h2 className="text-3xl">Hi, {user?.displayName || admin?.name}</h2>
       </div>
     </div>
   );

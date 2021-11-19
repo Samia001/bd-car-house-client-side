@@ -26,10 +26,10 @@ const AddService = () => {
     e.preventDefault();
     Swal.fire({
       title: "Are you sure?",
-      icon: "warning",
+      icon: "denger",
       showCancelButton: true,
-      confirmButtonColor: "#3085d6",
-      cancelButtonColor: "#d33",
+      confirmButtonColor: "#2ed573",
+      cancelButtonColor: "#EA2027",
       confirmButtonText: "Yes, Add new item!",
     }).then((result) => {
       if (result.isConfirmed) {

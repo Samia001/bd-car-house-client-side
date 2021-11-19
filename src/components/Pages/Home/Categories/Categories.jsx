@@ -1,5 +1,5 @@
 import React from "react";
-import baby from "../../../../images/app_01.jpeg";
+import baby from "../../../../images/app_01.jpg";
 import man from "../../../../images/app_02.jpg";
 import woman from "../../../../images/app_03.jpg";
 
@@ -20,7 +20,7 @@ const Categories = () => {
         </div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-gray-700">
-          Multiplex Cars
+            Ferrari Cars
           </div>
           <p className="text-gray-700 text-base"></p>
         </div>
@@ -36,7 +36,7 @@ const Categories = () => {
         </div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-gray-700">
-          Single Cars
+          Lamborghini Cars
           </div>
           <p className="text-gray-700 text-base"></p>
         </div>
@@ -52,7 +52,7 @@ const Categories = () => {
         </div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-gray-700">
-          Duplex Apartments
+          Bugatti Veyron Cars
           </div>
           <p className="text-gray-700 text-base"></p>
         </div>

@@ -52,7 +52,7 @@ const Side = () => {
         )}
         <div className="flex items-center p-2 space-x-4">
           <img
-            src={user?.photoURL || "https://i.ibb.co/NWjQBKP/review-user.webp"}
+            src={user?.photoURL || "https://tse3.mm.bing.net/th?id=OIP.mWyc8sbnR1uZmAx8zIl1FAHaHa&pid=Api&P=0&w=300&h=300"}
             alt=""
             className="w-10 h-10 rounded-full"
           />
@@ -196,22 +196,3 @@ const Side = () => {
 };
 
 export default Side;
-
-/* 
-
-
-<div className="flex items-center p-2 space-x-4">
-          <img
-            src="https://source.unsplash.com/100x100/?portrait"
-            alt=""
-            className="w-12 h-12 rounded-full"
-          />
-          <div>
-            <h2 className="text-lg font-bold">Leroy Jenkins (admin)</h2>
-          </div>
-        </div>
-
-
-
-
-*/

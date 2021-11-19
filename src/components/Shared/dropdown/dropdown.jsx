@@ -8,9 +8,9 @@ const dropdown = () => {
           <div className="relative inline-flex align-middle w-full">
             <button
               className="
-          bg-purple-500
+          bg-green-500
           text-white
-          active:bg-purple-600
+          active:bg-green-600
           font-bold
           uppercase
           text-xs

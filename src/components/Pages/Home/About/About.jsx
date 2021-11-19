@@ -11,7 +11,7 @@ const About = ({ children }) => {
               What's bd car house
             </h3>
             <p className="text-gray-700">
-            bd car house is Bangladesh's leading property site — the best place to search, whether you are investing, buying your own home, or looking for a place to rent. At PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
+            bd car house is Bangladesh's exclusive car shop — the best place to buy luxury cars. Make your life more comfortabe by using our beautiful cars.
             </p>
           </div>
 

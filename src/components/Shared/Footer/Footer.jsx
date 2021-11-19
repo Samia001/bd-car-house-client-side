@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-700 text-white py-10 w-full">
+    <footer className="bg-green-900 text-white py-10 w-full">
       <div className="my-container">
         <div className="grid space-y-4 space-x-4 grid-cols-1 md:grid-cols-3">
           <div
@@ -27,10 +27,10 @@ const Footer = () => {
             className="space-y-2"
           >
             <h2 className="text-white text-3xl font-bold font-grandHotel tracking-widest">
-              <span className="text-teal-600">e </span>Property
+              <span className="text-teal-600">bd </span>car house
             </h2>
             <p>
-            bd car house is Bangladesh's leading property site — the best place to search, whether you are investing, buying your own home, or looking for a place to rent. At PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
+            bd car house is Bangladesh's exclusive car shop — the best place to buy luxury cars. Make your life more comfortabe by using our beautiful cars.
             </p>
             <div className="flex space-x-4">
               <BsFacebook className="transition text-xl cursor-pointer hover:text-orange" />
@@ -46,7 +46,7 @@ const Footer = () => {
             className="flex md:justify-center"
           >
             <div className="">
-              <h3 className="text-3xl mb-2">Quick Links</h3>
+              <h3 className="text-3xl mb-2">Ownership</h3>
               <div className="flex flex-col list-none">
                 <li className="flex items-center space-x-1 group">
                   <MdNavigateNext />
@@ -63,19 +63,20 @@ const Footer = () => {
                 <li className="flex items-center space-x-1 group">
                   <MdNavigateNext />
                   <Link className="transition group-hover:text-orange" to="/">
-                    Latest News
+                  Brands
                   </Link>
                 </li>
                 <li className="flex items-center space-x-1 group">
                   <MdNavigateNext />
                   <Link className="transition group-hover:text-orange" to="/">
-                    Subscribe
+                     Models
                   </Link>
                 </li>
                 <li className="flex items-center space-x-1 group">
                   <MdNavigateNext />
                   <Link className="transition group-hover:text-orange" to="/">
                     Our Policies
+                  
                   </Link>
                 </li>
               </div>
@@ -85,7 +86,7 @@ const Footer = () => {
           <div data-aos="fade-left" data-aos-duration="1500" className="">
             <h3 className="text-3xl mb-2">Newsletter</h3>
             <p>
-              Join us on a Villa Park Stadium Tour and Step behind the scenes.
+            Stay up to date.
             </p>
 
             <div className="flex space-x-1 items-center rounded-lg p-2 border-2 border-lightBlue mt-4">
@@ -98,6 +99,7 @@ const Footer = () => {
             </div>
             <button className="bg-teal-600 text-gray-700 font-bold outline-none border-2 border-darkBlue rounded-lg px-6 py-2 mt-2 w-full shadow-lg hover:text-white hover:bg-teal-700 hover:border-teal-700">
               Subscribe
+              
             </button>
           </div>
         </div>
@@ -112,7 +114,7 @@ const Footer = () => {
           <p className="text-gray-200 text-sm">
             &copy;2021-2022{" "}
             <span className="text-white text-sm font-bold">
-              <span className="text-teal-600">e </span>Property
+              <span className="text-teal-600">bd </span>Car house
             </span>
             <br />
             

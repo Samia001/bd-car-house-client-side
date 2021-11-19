@@ -21,7 +21,7 @@ const Products = () => {
     <div className="py-20">
       <div className="my-container">
         <h3 className="text-teal-600 text-4xl mb-10 text-center">
-          Our Popular Apartment
+          Our Most Demandable Car
         </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -35,7 +35,7 @@ const Products = () => {
           className="flex items-center justify-center mt-10"
         >
           <button className="btn btn-primary inline-block">
-            See All Apartments
+            See All Cars
           </button>
         </div>
       </div>

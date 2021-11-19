@@ -2,6 +2,9 @@ import React from "react";
 import { BiArrowFromLeft } from "react-icons/bi";
 import { useHistory } from "react-router";
 import BannerBG from "../../../../images/main-banner-bg.jpg";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+</style>
 
 const Banner = () => {
   const history = useHistory();
@@ -21,14 +24,14 @@ const Banner = () => {
               className="text-white text-left"
             >
               <p className="mb-4 text-lg uppercase tracking-wider">
-              Explore Residential Areas In Bangladesh
+              Explore luxury In Cars Bangladesh
 
               </p>
-              <h2 className="font-grandHotel text-9xl">Apartment</h2>
+              <h2 className="font-grandHotel text-9xl">Luxury cars</h2>
 
               <button
                 onClick={() => history.push("/explore")}
-                className="flex items-center justify-center space-x-2 btn btn-primary mt-8 bg-purple-600 hover:bg-purple-500"
+                className="flex items-center justify-center space-x-2 btn btn-primary mt-8 bg-green-700 hover:bg-green-500"
               >
                 <span>Explore</span>
                 <BiArrowFromLeft size="1.5em" />

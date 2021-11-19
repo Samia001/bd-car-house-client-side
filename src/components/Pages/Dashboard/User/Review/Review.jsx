@@ -27,7 +27,7 @@ const Review = () => {
     const newReview = { ...review };
     newReview[filed] = value;
     newReview.img =
-      user?.photoURL || "https://i.ibb.co/NWjQBKP/review-user.webp";
+      user?.photoURL || "https://tse1.mm.bing.net/th?id=OIP.GwD7ShFCvb3h8lNSkTtzqQHaHa&pid=Api&P=0&w=300&h=300";
     newReview.rating = rating.toString();
     setReview(newReview);
   };
@@ -48,7 +48,7 @@ const Review = () => {
           Swal.fire({
             position: "top-end",
             icon: "success",
-            title: "Thanks for review us 💌 ",
+            title: "Thanks for review us 🥰 ",
             showConfirmButton: false,
             timer: 1500,
           });
