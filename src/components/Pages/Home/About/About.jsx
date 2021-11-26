@@ -11,7 +11,7 @@ const About = ({ children }) => {
               What's bd car house
             </h3>
             <p className="text-gray-700">
-            bd car house is Bangladesh's exclusive car shop — the best place to buy luxury cars. Make your life more comfortabe by using our beautiful cars.
+            bd car house is Bangladesh's exclusive car shop — the best place to buy luxury cars. Make your life more comfortabe by using our awesome cars.
             </p>
           </div>
 
