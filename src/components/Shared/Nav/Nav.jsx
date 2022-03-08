@@ -38,7 +38,7 @@ function Nav() {
               <NavLink to="/">
                 <div className="flex-shrink-0 flex items-center space-x-4">
                   <h2 className="text-white-600 tracking-widest text-2xl sm:text-2xl lg:text-3xl font-bold ">
-                  bd car house
+                  BD car house
                   </h2>
                 </div>
               </NavLink>
