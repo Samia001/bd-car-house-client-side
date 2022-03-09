@@ -7,6 +7,7 @@ import PrivateRoute from "./components/Login/Login/Private/PrivateRoute";
 import Register from "./components/Login/Login/Register";
 import AboutUs from "./components/Pages/AboutUs/AboutUs";
 import Dashboard from "./components/Pages/Dashboard/Dashboard";
+import Payment from "./components/Pages/Dashboard/User/Payment/Payment";
 import Explore from "./components/Pages/Explore/Explore";
 import Home from "./components/Pages/Home/Home";
 import NotFound from "./components/Pages/NotFound/NotFound";
@@ -40,6 +41,10 @@ function App() {
             <PrivateRoute path="/dashboard">
               <Dashboard />
             </PrivateRoute>
+
+            <PrivateRoute path="/payment/:id">
+              <Payment/>
+              </PrivateRoute>
 
             <Route path="/about">
               <AboutUs />

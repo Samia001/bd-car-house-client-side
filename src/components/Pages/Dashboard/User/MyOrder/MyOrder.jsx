@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import useAuth from "../../../../../hooks/useAuth";
 import Spinner from "../../../../Shared/Loader/Spinner";
+import Payment from "../Payment/Payment";
 
 const MyOrder = () => {
   const [myOrders, setMyOrders] = useState([]);
@@ -79,6 +81,25 @@ const MyOrder = () => {
           <h3 className="text-gray-700 text-2xl">{myOrder.product.name}</h3>
           <p className="text-gray-600">{myOrder.product.descriptions}</p>
 
+
+                
+          <div className="flex items-center justify-center mt-3">
+             <Link to= { `/dashboard/payment'/${myOrder._id}`}>
+             <button
+                onClick={() => Payment(myOrder._payment)
+          
+              
+              }
+                className="btn btn-danger px-3 py-1 text-lg bg-red-300 hover:bg-red-200 text-gray-800"
+              >
+                pay
+              </button>
+               
+               </Link>
+  
+            </div>
+          
+
           {myOrder.order.status === "pending" && (
             <div className="flex items-center justify-center mt-3">
               <button
@@ -87,8 +108,24 @@ const MyOrder = () => {
               >
                 Cancel Order
               </button>
+  
             </div>
           )}
+
+
+          {/* <div className="flex items-center justify-center mt-3">
+              <button
+                onClick={() => Payment(Payment._price) 
+              
+              }
+                className="btn btn-danger px-3 py-1 text-lg bg-red-300 hover:bg-red-200 text-gray-800"
+              >
+                pay
+              </button>
+  
+            </div> */}
+
+
         </div>
       ))}
     </div>
