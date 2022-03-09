@@ -8,7 +8,7 @@ const Products = () => {
   const history = useHistory();
 
   useEffect(() => {
-    fetch("https://frozen-reaches-53021.herokuapp.com/cars?limit=6")
+    fetch("http://localhost:8000/cars")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
